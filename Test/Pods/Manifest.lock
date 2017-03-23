@@ -1,0 +1,16 @@
+PODS:
+  - LWAlipaySDK (15.2.0)
+
+DEPENDENCIES:
+  - LWAlipaySDK (from `../`)
+
+EXTERNAL SOURCES:
+  LWAlipaySDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LWAlipaySDK: 923bdad61bcbd21098b712f1adc002389b31e606
+
+PODFILE CHECKSUM: abe9911a8e80de74b3ab55643ebebefe7bbe9328
+
+COCOAPODS: 1.2.0
