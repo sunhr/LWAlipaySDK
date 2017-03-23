@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   
-  s.source       = { :git => 'https://github.com/sunhr/LWAlipaySDK.git', :tag => '#{s.version}' }
+  s.source       = { :git => "https://github.com/sunhr/LWAlipaySDK.git", :tag => "#{s.version}" }
   s.vendored_frameworks = 'AlipaySDK/AlipaySDK.framework'
   s.resource = 'AlipaySDK/AlipaySDK.bundle'
   
