@@ -1,5 +1,5 @@
 PODS:
-  - LWAlipaySDK (15.4.1)
+  - LWAlipaySDK (15.5.0)
 
 DEPENDENCIES:
   - LWAlipaySDK (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LWAlipaySDK: a5cb505392b7fc89e13812786034956e18be6301
+  LWAlipaySDK: 0b8a104b5bd28e99f71e232914efde46ab4a4830
 
 PODFILE CHECKSUM: abe9911a8e80de74b3ab55643ebebefe7bbe9328
 
