@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LWAlipaySDK"
-  s.version      = "15.5.0"
+  s.version      = "15.5.2"
   s.summary      = "LWAlipaySDK"
   s.description  = <<-DESC
   Unofficial AlipaySDK for CocoaPods
