@@ -1,6 +1,6 @@
 {
   "name": "LWAlipaySDK",
-  "version": "15.5.0",
+  "version": "15.5.3",
   "summary": "LWAlipaySDK",
   "description": "Unofficial AlipaySDK for CocoaPods",
   "homepage": "https://open.alipay.com/",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/sunhr/LWAlipaySDK.git",
-    "tag": "15.5.0"
+    "tag": "15.5.3"
   },
   "vendored_frameworks": "AlipaySDK/AlipaySDK.framework",
   "resources": "AlipaySDK/AlipaySDK.bundle",

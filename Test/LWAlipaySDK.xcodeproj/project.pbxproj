@@ -114,7 +114,6 @@
 				3634B1371E835A2B00666E25 /* Sources */,
 				3634B1381E835A2B00666E25 /* Frameworks */,
 				3634B1391E835A2B00666E25 /* Resources */,
-				9195C5857C9D91358AB39ACD /* [CP] Embed Pods Frameworks */,
 				DC3F0457EB598268C0C256A2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -173,21 +172,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9195C5857C9D91358AB39ACD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LWAlipaySDK/Pods-LWAlipaySDK-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		919EA2E2DFEDE8FD4106C2E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,7 +201,7 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
