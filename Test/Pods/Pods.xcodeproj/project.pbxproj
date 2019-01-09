@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25DF88D45E0901D911AC424C709DCD6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6CFF9662B78F0C8D0966B29E3DCA418A /* Pods-LWAlipaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F7A66D323B97F23B826EBEAAD134D7 /* Pods-LWAlipaySDK-dummy.m */; };
+		D3C105C1C80571850D70EE137D57257F /* Pods-LWAlipaySDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F7A66D323B97F23B826EBEAAD134D7 /* Pods-LWAlipaySDK-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +17,6 @@
 		49B97335305A8F0694995046F9E511A3 /* Pods-LWAlipaySDK-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWAlipaySDK-resources.sh"; sourceTree = "<group>"; };
 		516A4EEB0E31C221352E96F21D930321 /* libPods-LWAlipaySDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LWAlipaySDK.a"; path = "libPods-LWAlipaySDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C3357675AB4DEF5B3772A81BDA49D63 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E91C0C73354D1BB25169A4EA11A5B7C /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlipaySDK.framework; path = AlipaySDK/AlipaySDK.framework; sourceTree = "<group>"; };
 		709852CFC33867FD39DBC77968D43CD7 /* Pods-LWAlipaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWAlipaySDK.debug.xcconfig"; sourceTree = "<group>"; };
 		768ABE04A92E1C020B53CCF50D3A85B1 /* Pods-LWAlipaySDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWAlipaySDK-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -30,17 +28,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A42DD35E4D15C8BFFDDB43CECC78DAB4 /* Frameworks */ = {
+		37B878C35584791E59869311BE0944B2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DF88D45E0901D911AC424C709DCD6C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2A23D73628FEB1BAC1A7A15C4A6430D3 /* Pods-LWAlipaySDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,7 +84,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				99E061BDC18ACFACB7D7F80FD0F5F9B1 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				D0DA7FCBAFC04FB489CF433CF27C6E18 /* Products */,
 				5B527E24727044C9AE8C129C7A9B0B6E /* Targets Support Files */,
 			);
@@ -112,28 +116,12 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		D0DA7FCBAFC04FB489CF433CF27C6E18 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				516A4EEB0E31C221352E96F21D930321 /* libPods-LWAlipaySDK.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		FAD01038A8E3B15A5DD21EA99CF6DC34 /* Frameworks */ = {
@@ -146,13 +134,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2F56FE36F699273138FCB75DD958B736 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		3C7CAFD0A634EF9545EC9A522A37D4D1 /* Pods-LWAlipaySDK */ = {
+		D301BA9AE69088B5DFBA8F894D35DCB5 /* Pods-LWAlipaySDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6608969831C06F48BA7E3BC3769DBA5C /* Build configuration list for PBXNativeTarget "Pods-LWAlipaySDK" */;
+			buildConfigurationList = 9B14B4882CFD2475736908D22B601C7E /* Build configuration list for PBXNativeTarget "Pods-LWAlipaySDK" */;
 			buildPhases = (
-				BA78DB45CE4A3BD8C84B8D1EB7F04393 /* Sources */,
-				A42DD35E4D15C8BFFDDB43CECC78DAB4 /* Frameworks */,
+				2F56FE36F699273138FCB75DD958B736 /* Headers */,
+				2AC62A967E9142F83A065042932FF76E /* Sources */,
+				37B878C35584791E59869311BE0944B2 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,45 +183,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3C7CAFD0A634EF9545EC9A522A37D4D1 /* Pods-LWAlipaySDK */,
+				D301BA9AE69088B5DFBA8F894D35DCB5 /* Pods-LWAlipaySDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA78DB45CE4A3BD8C84B8D1EB7F04393 /* Sources */ = {
+		2AC62A967E9142F83A065042932FF76E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFF9662B78F0C8D0966B29E3DCA418A /* Pods-LWAlipaySDK-dummy.m in Sources */,
+				D3C105C1C80571850D70EE137D57257F /* Pods-LWAlipaySDK-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		56571EAEBF797A6725DFD18E07038A6C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 709852CFC33867FD39DBC77968D43CD7 /* Pods-LWAlipaySDK.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		75B38211818D57CD45854D0DDBB6B724 /* Release */ = {
+		163A54BC27E6BC251BAA496BC48899C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2016A101B47F577C6B44B915FEB54E88 /* Pods-LWAlipaySDK.release.xcconfig */;
 			buildSettings = {
@@ -244,7 +222,7 @@
 			};
 			name = Release;
 		};
-		B9AC12289CD8978D51F9223B457E7DCA /* Release */ = {
+		5DE734ABD787801184C181C385D15EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,13 +274,17 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		DEC9569BB66BEC125260336D8D9273BA /* Debug */ = {
+		63A5799275076365B0038BA7C69732E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -356,12 +338,36 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A793992444FDD2623501168C09E5E75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 709852CFC33867FD39DBC77968D43CD7 /* Pods-LWAlipaySDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -371,17 +377,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEC9569BB66BEC125260336D8D9273BA /* Debug */,
-				B9AC12289CD8978D51F9223B457E7DCA /* Release */,
+				63A5799275076365B0038BA7C69732E0 /* Debug */,
+				5DE734ABD787801184C181C385D15EA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6608969831C06F48BA7E3BC3769DBA5C /* Build configuration list for PBXNativeTarget "Pods-LWAlipaySDK" */ = {
+		9B14B4882CFD2475736908D22B601C7E /* Build configuration list for PBXNativeTarget "Pods-LWAlipaySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				56571EAEBF797A6725DFD18E07038A6C /* Debug */,
-				75B38211818D57CD45854D0DDBB6B724 /* Release */,
+				A793992444FDD2623501168C09E5E75A /* Debug */,
+				163A54BC27E6BC251BAA496BC48899C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
